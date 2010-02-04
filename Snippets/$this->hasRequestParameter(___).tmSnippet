@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;hasRequestParameter(${1:'name'})$0</string>
+	<key>name</key>
+	<string>$this-&gt;hasRequestParameter(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.component, meta.symfony.components, meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>hrqp</string>
+	<key>uuid</key>
+	<string>D6357590-820D-4419-ABBD-8F283B28B7FD</string>
+</dict>
+</plist>

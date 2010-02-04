@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>clearCookies()</string>
+	<key>name</key>
+	<string>clearCookies(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>clrcookie</string>
+	<key>uuid</key>
+	<string>963B4506-1810-461B-BBF6-5BB67DA384EE</string>
+</dict>
+</plist>

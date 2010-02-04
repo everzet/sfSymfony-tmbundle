@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;setValidator(${1:'field'}, ${0:\$validator});</string>
+	<key>name</key>
+	<string>$this-&gt;setValidator(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.form</string>
+	<key>tabTrigger</key>
+	<string>svd</string>
+	<key>uuid</key>
+	<string>2286748D-1630-4B9D-A55B-9CB709B01BB6</string>
+</dict>
+</plist>

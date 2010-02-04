@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$t = new lime_test(${0:1});</string>
+	<key>name</key>
+	<string>$t = new lime_test(...);</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>$t=</string>
+	<key>uuid</key>
+	<string>CB1DBF7F-44AF-4206-9E2B-3B8B234DAFE9</string>
+</dict>
+</plist>

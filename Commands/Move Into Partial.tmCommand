@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>cd $TM_DIRECTORY
+
+name=$(CocoaDialog inputbox --title "Move HTML into partial" \
+    --informative-text "Enter partial name:" \
+    --button1 "Ok" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$name") == "2" ]]; then
+	echo "$TM_SELECTED_TEXT"
+	exit
+fi
+name=$(tail -n1 &lt;&lt;&lt;"$name")
+
+echo "$TM_SELECTED_TEXT" &gt; _$name.php
+rescan_project
+
+echo "&lt;?php include_partial('$name'\${1:, \${2:array()}}) ?&gt;"</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~P</string>
+	<key>name</key>
+	<string>Move Selection Into Partial</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>uuid</key>
+	<string>88D5B66E-A275-44E0-8CFA-57AA4E24F9C5</string>
+</dict>
+</plist>

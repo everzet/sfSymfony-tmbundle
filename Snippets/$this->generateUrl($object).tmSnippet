@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;generateUrl(${1:'route'}, ${2:\$object}${3:, ${4:array()}${5:, ${6:\$absolute = true}}})$0</string>
+	<key>name</key>
+	<string>$this-&gt;generateUrl($object)</string>
+	<key>scope</key>
+	<string>meta.symfony.component, meta.symfony.components, meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>gu</string>
+	<key>uuid</key>
+	<string>7AAC8470-FC58-4C9B-90DB-9B26A042A099</string>
+</dict>
+</plist>

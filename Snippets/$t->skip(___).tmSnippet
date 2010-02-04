@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${3:t}-&gt;skip(${1:'message'}, ${2:\$nb_tests});</string>
+	<key>name</key>
+	<string>$t-&gt;skip(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>skip</string>
+	<key>uuid</key>
+	<string>96006F3C-9737-4F5F-80EB-66877B5B7DE0</string>
+</dict>
+</plist>

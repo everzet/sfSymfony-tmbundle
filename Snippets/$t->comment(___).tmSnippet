@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${2:t}-&gt;comment(${1:'message'});</string>
+	<key>name</key>
+	<string>$t-&gt;comment(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>com</string>
+	<key>uuid</key>
+	<string>81A0BD84-5AF6-498A-A536-AAB46C3D2B74</string>
+</dict>
+</plist>

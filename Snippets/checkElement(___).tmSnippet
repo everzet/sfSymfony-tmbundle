@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>checkElement(${1:'selector'}${2:, ${3:'value'}})</string>
+	<key>name</key>
+	<string>checkElement(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>cel</string>
+	<key>uuid</key>
+	<string>7DBEAF0A-4282-4729-887D-497CBB73E764</string>
+</dict>
+</plist>

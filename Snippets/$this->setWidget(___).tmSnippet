@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;setWidget(${1:'name'}, ${0:\$widget});</string>
+	<key>name</key>
+	<string>$this-&gt;setWidget(...);</string>
+	<key>scope</key>
+	<string>meta.symfony.form</string>
+	<key>tabTrigger</key>
+	<string>swd</string>
+	<key>uuid</key>
+	<string>265852AF-871E-4E9A-BA14-B82A9471FFD9</string>
+</dict>
+</plist>

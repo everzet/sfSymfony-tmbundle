@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>decorate_with(${1:'layout'})$0</string>
+	<key>name</key>
+	<string>decorate_with(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_dw</string>
+	<key>uuid</key>
+	<string>E0D62541-676E-4D75-88D3-5D55A3EBB2EC</string>
+</dict>
+</plist>

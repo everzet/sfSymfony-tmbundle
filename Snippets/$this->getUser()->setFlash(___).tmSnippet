@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;setFlash(${1:'name'}, ${2:'value'}${3:, ${4:\$persist = true}})$0</string>
+	<key>name</key>
+	<string>-&gt;setFlash(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;sfl</string>
+	<key>uuid</key>
+	<string>7384BD09-19FB-48E4-9B9D-232140DC65D2</string>
+</dict>
+</plist>

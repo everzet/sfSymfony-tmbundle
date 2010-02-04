@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ESC_JS_NO_ENTITIES</string>
+	<key>name</key>
+	<string>ESC_JS_NO_ENTITIES</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ESC</string>
+	<key>uuid</key>
+	<string>2831BF1B-6333-4D5A-AA84-AFCD89FD601E</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>auto_discovery_link_tag(${1:'rss'}, ${2:'url'}${3:, ${4:array()}})$0</string>
+	<key>name</key>
+	<string>echo auto_discovery_link_tag(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_adlt</string>
+	<key>uuid</key>
+	<string>9AFF9FD2-57A2-4ED1-AA2A-16A26591E0BD</string>
+</dict>
+</plist>

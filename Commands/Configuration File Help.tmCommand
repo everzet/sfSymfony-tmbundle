@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+
+preg_match('/^# .*the symfony website:\n# (.*)\n/', file_get_contents('php://stdin'), $config);
+
+require_once(getenv('TM_BUNDLE_SUPPORT') . '/Scripts/browser.php');
+echo makePage($config[1]);</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^~h</string>
+	<key>name</key>
+	<string>Configuration File Help</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>uuid</key>
+	<string>3DA6A225-174D-43DB-8581-A55E43CCF481</string>
+</dict>
+</plist>

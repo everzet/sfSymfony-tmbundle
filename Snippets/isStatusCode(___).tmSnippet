@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>isStatusCode(${1:200})</string>
+	<key>name</key>
+	<string>isStatusCode(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>isc</string>
+	<key>uuid</key>
+	<string>336B8A8E-76DD-49E3-89B6-B2986E85F971</string>
+</dict>
+</plist>

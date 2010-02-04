@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>url_for(${1:'route'}, ${2:\$object}${3:, ${4:array()}${5:, ${6:\$absolute = true}}})$0</string>
+	<key>name</key>
+	<string>url_for($object)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_uf</string>
+	<key>uuid</key>
+	<string>777A0A03-E042-47E5-A96E-06C59ACF1118</string>
+</dict>
+</plist>

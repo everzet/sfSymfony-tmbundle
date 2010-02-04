@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:name}:
+  class:      sf${2:Doctrine}RouteCollection
+  options:    { model: ${3:ModelName} }$0</string>
+	<key>name</key>
+	<string>Create new object route collection</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>route</string>
+	<key>uuid</key>
+	<string>1AB20430-0B65-4858-A4A2-88C43117D612</string>
+</dict>
+</plist>

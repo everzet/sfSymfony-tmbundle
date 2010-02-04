@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>truncate_text(${1:'text'}, ${2:30}${3:, ${4:'...'}${5:, true}})$0</string>
+	<key>name</key>
+	<string>truncate_text(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_tt</string>
+	<key>uuid</key>
+	<string>412A6AF1-6591-4CEB-AA6B-C3E83E841F71</string>
+</dict>
+</plist>

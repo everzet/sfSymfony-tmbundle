@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Executes an application defined process prior to execution of this sfAction object.
+ */
+public function preExecute()
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>Create new action preExecute</string>
+	<key>scope</key>
+	<string>meta.symfony.actions, meta.symfony.action</string>
+	<key>tabTrigger</key>
+	<string>pre</string>
+	<key>uuid</key>
+	<string>9667B51E-EE9B-4C61-8FA4-FC1A7EB65B75</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;forward404If(${1:\$condition}${2:, ${3:'message'}});$0</string>
+	<key>name</key>
+	<string>$this-&gt;forward404If(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>fw404if</string>
+	<key>uuid</key>
+	<string>E489D18C-1CDD-465F-A672-98FEDE146321</string>
+</dict>
+</plist>

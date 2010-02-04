@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;getCookie(${1:'name'}${2:, ${3:'default'}})$0</string>
+	<key>name</key>
+	<string>-&gt;getCookie(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;gco</string>
+	<key>uuid</key>
+	<string>7F19A94D-81A3-4824-AEBC-0432178EA56D</string>
+</dict>
+</plist>

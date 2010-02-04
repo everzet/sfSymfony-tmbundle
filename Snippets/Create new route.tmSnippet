@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:name}:
+  url:          ${2:/}
+  param:        { module: ${3:default}, action: ${4:index}$5 }$0</string>
+	<key>name</key>
+	<string>Create new route</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>route</string>
+	<key>uuid</key>
+	<string>4C114C19-50BC-4700-BF21-F916AF31EAB1</string>
+</dict>
+</plist>

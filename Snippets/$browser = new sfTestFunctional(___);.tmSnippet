@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$browser = new sfTestFunctional(${0:new sfBrowser()});</string>
+	<key>name</key>
+	<string>$browser = new sfTestFunctional(...);</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>$b=</string>
+	<key>uuid</key>
+	<string>760632AA-E9FE-4496-946E-D073D1A57964</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;getContext()-&gt;getMailer()$0</string>
+	<key>name</key>
+	<string>$this-&gt;getContext()-&gt;getMailer()</string>
+	<key>scope</key>
+	<string>meta.symfony.filter</string>
+	<key>tabTrigger</key>
+	<string>mail</string>
+	<key>uuid</key>
+	<string>1249AEEC-22CB-401C-82B7-6528845D7457</string>
+</dict>
+</plist>

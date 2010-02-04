@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+
+preg_match('/class.*extends *(.*)[ \n]/', file_get_contents('php://stdin'), $config);
+
+require_once(getenv('TM_BUNDLE_SUPPORT') . '/Scripts/browser.php');
+echo makePage('http://www.symfony-project.org/api/search/1_4?search=' . $config[1]);</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^~h</string>
+	<key>name</key>
+	<string>Symfony Class Help</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>meta.php.class</string>
+	<key>uuid</key>
+	<string>F513FFDD-82F1-467C-AA94-8518AE409FE4</string>
+</dict>
+</plist>

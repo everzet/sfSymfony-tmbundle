@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;composeAndSend(${1:\$from}, ${2:\$to}, ${3:\$subject}, ${4:\$body})$0</string>
+	<key>name</key>
+	<string>-&gt;composeAndSend(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;cas</string>
+	<key>uuid</key>
+	<string>0821ED45-FE39-418B-97AE-B04A577E8744</string>
+</dict>
+</plist>

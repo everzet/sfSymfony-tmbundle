@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>matches(${1:'regex'})</string>
+	<key>name</key>
+	<string>matches(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>mat</string>
+	<key>uuid</key>
+	<string>890EF25F-E188-45E3-9929-096D1C0D0C2F</string>
+</dict>
+</plist>

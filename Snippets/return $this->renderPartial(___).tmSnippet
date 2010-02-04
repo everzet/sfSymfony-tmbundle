@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>return \$this-&gt;renderPartial(${1:'templateName'}${2:, ${3:array()}});$0</string>
+	<key>name</key>
+	<string>return $this-&gt;renderPartial(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>retp</string>
+	<key>uuid</key>
+	<string>0421029D-BB62-4A75-9A77-2FC7607D04B6</string>
+</dict>
+</plist>

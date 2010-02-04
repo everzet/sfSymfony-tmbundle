@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>link_to(${1:'label'}, '@${2:route}${3:?$4}')$0</string>
+	<key>name</key>
+	<string>link_to(@...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_lt</string>
+	<key>uuid</key>
+	<string>EF1B1D33-E67C-4E8D-823B-7BB49E3E0733</string>
+</dict>
+</plist>

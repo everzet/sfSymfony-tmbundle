@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;getRoute()$0</string>
+	<key>name</key>
+	<string>$this-&gt;getRoute()</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>gr</string>
+	<key>uuid</key>
+	<string>ED406BF7-D803-431A-AED1-DF9998C4DD03</string>
+</dict>
+</plist>

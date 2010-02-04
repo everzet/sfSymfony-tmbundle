@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;send(${1:\$message}${2:, ${3:\$failedRecipients}})$0</string>
+	<key>name</key>
+	<string>-&gt;send(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;sen</string>
+	<key>uuid</key>
+	<string>6CDBD7B5-0393-4999-865F-1A9176E833AA</string>
+</dict>
+</plist>

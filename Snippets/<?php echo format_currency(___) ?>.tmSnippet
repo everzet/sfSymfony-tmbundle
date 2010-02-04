@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>format_currency(${1:\$amount}, ${2:'USD'})$0</string>
+	<key>name</key>
+	<string>format_currency(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_fcu</string>
+	<key>uuid</key>
+	<string>D8A1A958-6EE9-43A1-95B5-D5CB6249E52D</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if_javascript() ?&gt;
+	$0
+&lt;?php end_if_javascript() ?&gt;</string>
+	<key>name</key>
+	<string>&lt;?php if_javascript() ?&gt;...&lt;?php end_if_javascript(); ?&gt;</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>_ifjs?</string>
+	<key>uuid</key>
+	<string>B829A01F-5696-4A85-8F52-D6A4400DECCB</string>
+</dict>
+</plist>

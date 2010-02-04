@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>setHttpHeader(${1:'name'}, ${2:'value'})</string>
+	<key>name</key>
+	<string>setHttpHeader(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>setheader</string>
+	<key>uuid</key>
+	<string>4BCD8B05-ACD2-4A2B-B824-0CC43F94AA8B</string>
+</dict>
+</plist>

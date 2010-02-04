@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>deselect(${1:'selector'})</string>
+	<key>name</key>
+	<string>deselect(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>desel</string>
+	<key>uuid</key>
+	<string>B75294E3-48D9-4F28-82AF-5D631F60056F</string>
+</dict>
+</plist>

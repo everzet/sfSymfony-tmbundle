@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>comment_as_conditional(${1:'IE'}, ${2:'content'})$0</string>
+	<key>name</key>
+	<string>comment_as_conditional(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_cc</string>
+	<key>uuid</key>
+	<string>7D17F538-F0FA-4AE1-85F3-9991F8BFF27C</string>
+</dict>
+</plist>

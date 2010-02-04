@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;addStylesheet(${1:'file'}${2:, ${3:'|first|last'}${4:, ${5:array()}}})$0</string>
+	<key>name</key>
+	<string>-&gt;addStylesheet(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;ass</string>
+	<key>uuid</key>
+	<string>65167FA9-9B9B-4FC4-A7D2-150682B20FC8</string>
+</dict>
+</plist>

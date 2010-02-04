@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new sfValidatorSchemaCompare(${1:'string 1'}, ${2:'=='}, ${3:'string 2'})$0</string>
+	<key>name</key>
+	<string>new sfValidatorSchemaCompare(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.form</string>
+	<key>tabTrigger</key>
+	<string>nvsc</string>
+	<key>uuid</key>
+	<string>7A88A025-55CE-4F3C-8546-A84495D9E858</string>
+</dict>
+</plist>

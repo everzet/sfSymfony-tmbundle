@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dynamic_javascript_include_tag(${1:'uri'}${2:, ${3:false}${4:, ${5:array()}}})$0</string>
+	<key>name</key>
+	<string>dynamic_javascript_include_tag(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_djsit</string>
+	<key>uuid</key>
+	<string>05AEDD17-7920-4069-AD25-DC8BCCB414F0</string>
+</dict>
+</plist>

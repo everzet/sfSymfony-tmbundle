@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${2:${1/(.)(.*)/\L$1\E$2/}Form} = new ${1:sf}Form;$0</string>
+	<key>name</key>
+	<string>$this-&gt;form = new ...Form;</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions, meta.symfony.component, meta.symfony.components</string>
+	<key>tabTrigger</key>
+	<string>$f=</string>
+	<key>uuid</key>
+	<string>B3E94762-B2BE-4B86-A65B-649A171B08B9</string>
+</dict>
+</plist>

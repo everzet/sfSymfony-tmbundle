@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${5:t}-&gt;is_deeply(${1:\$array1}, ${2:\$array2}${3:, ${4:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;is_deeply(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>isdeeply</string>
+	<key>uuid</key>
+	<string>457D7369-550B-472E-AA9B-F6CA6FF31C37</string>
+</dict>
+</plist>

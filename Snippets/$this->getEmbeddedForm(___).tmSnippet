@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;getEmbeddedForm(${1:'name'})$0</string>
+	<key>name</key>
+	<string>$this-&gt;getEmbeddedForm(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.form</string>
+	<key>tabTrigger</key>
+	<string>gef</string>
+	<key>uuid</key>
+	<string>4DDAC4B2-A6F9-4923-A178-B6E42B4A7DE7</string>
+</dict>
+</plist>

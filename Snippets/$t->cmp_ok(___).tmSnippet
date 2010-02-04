@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${6:t}-&gt;cmp_ok(${1:\$value1}, ${2:\$operator}, ${3:\$value2}${4:, ${5:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;cmp_ok(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>cmpok</string>
+	<key>uuid</key>
+	<string>D483526D-E6BC-49E6-A944-94E2F3B1C895</string>
+</dict>
+</plist>

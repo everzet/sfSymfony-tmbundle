@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${5:t}-&gt;like(${1:\$string}, ${2:\$regExp}${3:, ${4:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;like(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>like</string>
+	<key>uuid</key>
+	<string>7DD69906-DEA4-45C0-B03B-DAE7247293AE</string>
+</dict>
+</plist>

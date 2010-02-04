@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Version snippet. Used for version information show.</string>
+	<key>name</key>
+	<string>v1.0.0 (03 Feb 2010)</string>
+	<key>uuid</key>
+	<string>03705FF6-8F34-4845-A063-171AF468CDCA</string>
+</dict>
+</plist>

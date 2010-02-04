@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;getHttpHeader(${1:'name'}${2:, ${3:'default'}})$0</string>
+	<key>name</key>
+	<string>-&gt;getHttpHeader(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;ghh</string>
+	<key>uuid</key>
+	<string>5BF35E53-0E57-46E9-A486-F8A7429EB9F2</string>
+</dict>
+</plist>

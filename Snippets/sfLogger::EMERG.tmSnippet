@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sfLogger::EMERG</string>
+	<key>name</key>
+	<string>sfLogger::EMERG</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>lgrlv</string>
+	<key>uuid</key>
+	<string>F0C87EA0-941F-4831-8969-753BE99B3685</string>
+</dict>
+</plist>

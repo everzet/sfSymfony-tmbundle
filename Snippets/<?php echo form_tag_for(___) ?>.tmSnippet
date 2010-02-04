@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>form_tag_for(${1:\$form}, ${2:'route prefix'}${3:, ${4:array()}})$0</string>
+	<key>name</key>
+	<string>form_tag_for(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_ftf</string>
+	<key>uuid</key>
+	<string>81CB1CE0-0356-42BF-8176-93BA5DA737C2</string>
+</dict>
+</plist>

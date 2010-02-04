@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:name}:
+  url:          ${2:/objects/:id}
+  class:        sf${3:Doctrine}Route
+  options:      { model: ${4:ModelName}, type: ${5:object} }
+  param:        { module: ${6:$4}, action: ${7:show} }$0</string>
+	<key>name</key>
+	<string>Create new object route</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>route</string>
+	<key>uuid</key>
+	<string>8634E339-63FB-4362-94E1-CD03EDDD80A7</string>
+</dict>
+</plist>

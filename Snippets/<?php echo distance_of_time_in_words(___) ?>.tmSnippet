@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>distance_of_time_in_words(${1:\$from_time}${2:, ${3:null}${4:, true}})$0</string>
+	<key>name</key>
+	<string>distance_of_time_in_words(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_dotiw</string>
+	<key>uuid</key>
+	<string>6AD39C82-C29F-4B25-A722-B629BCB20196</string>
+</dict>
+</plist>

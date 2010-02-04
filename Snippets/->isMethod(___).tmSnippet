@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;isMethod(${1:'post'})$0</string>
+	<key>name</key>
+	<string>-&gt;isMethod(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;ime</string>
+	<key>uuid</key>
+	<string>85C36063-2C40-47D0-8CC6-BED29627E7F6</string>
+</dict>
+</plist>

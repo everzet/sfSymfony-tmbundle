@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>withMessage(${1:'to'}${2:, ${3:1}})</string>
+	<key>name</key>
+	<string>withMessage(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>wme</string>
+	<key>uuid</key>
+	<string>5D9B0374-CBA9-4A31-B0F5-3D606247267E</string>
+</dict>
+</plist>

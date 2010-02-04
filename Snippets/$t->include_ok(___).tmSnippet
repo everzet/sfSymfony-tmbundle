@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${4:t}-&gt;include_ok(${1:\$file}${2:, ${3:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;include_ok(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>incok</string>
+	<key>uuid</key>
+	<string>B7A27AC5-3663-43F7-81B7-CA2646B3BD9F</string>
+</dict>
+</plist>

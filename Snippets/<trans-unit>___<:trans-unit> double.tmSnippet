@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;/trans-unit&gt;
+&lt;trans-unit&gt;
+	&lt;source&gt;$1&lt;/source&gt;
+	&lt;target&gt;$2&lt;/target&gt;
+&lt;/trans-unit&gt;$0</string>
+	<key>name</key>
+	<string>&lt;trans-unit&gt;...&lt;/trans-unit&gt; double</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>&lt;/trans-unit&gt;</string>
+	<key>uuid</key>
+	<string>F476C838-AF9C-41DD-9723-79CB622C4322</string>
+</dict>
+</plist>

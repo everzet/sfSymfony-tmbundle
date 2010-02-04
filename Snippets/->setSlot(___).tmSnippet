@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;setSlot(${1:'name'}, ${2:'value'})$0</string>
+	<key>name</key>
+	<string>-&gt;setSlot(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;ssl</string>
+	<key>uuid</key>
+	<string>5997C887-E5B7-4214-9F80-7C608BC59D43</string>
+</dict>
+</plist>

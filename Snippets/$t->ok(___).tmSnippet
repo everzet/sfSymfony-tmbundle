@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${4:t}-&gt;ok(${1:\$condition}${2:, ${3:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;ok(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>ok</string>
+	<key>uuid</key>
+	<string>35D68C44-E6BA-4A6A-8FCD-053BA22E74E3</string>
+</dict>
+</plist>

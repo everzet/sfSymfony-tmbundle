@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+
+$filename = getenv('TM_FILENAME');
+$filepath = getenv('TM_FILEPATH');
+
+$snippet = sprintf(&lt;&lt;&lt;SNIPPET
+/*
+ * This file is part of the \$1.
+ * (c) \${2:%s} \${3:\${TM_ORGANIZATION_NAME}}
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+/**
+ * \${4:%s} \${5:does things}.
+ *
+ * @package    \${6:\$1}
+ * @subpackage \${7:%s}
+ * @author     \$3
+ * @version    \${8:1.0.0}
+ */
+class \$4 extends \${9:%s}
+{
+	\$0
+}
+SNIPPET
+	,date('Y', time())
+	,getClassName($filename, $filepath)
+	,getPackageName($filename)
+	,getParentClass($filename)
+);
+
+echo $snippet;
+
+function getClassName($filename, $filepath)
+{
+	switch ($filename)
+	{
+		case 'components.class.php';
+			return basename(dirname(dirname($filepath))) . 'Components';
+			break;
+		case 'actions.class.php':
+			return basename(dirname(dirname($filepath))) . 'Actions';
+			break;
+		default:
+			return str_replace('.class.php', '', $filename);
+	}
+}
+
+function getPackageName($filename)
+{
+	if (false !== strpos($filename, 'actions.class.php'))
+	{
+		return 'actions';
+	}
+	elseif (false !== strpos($filename, 'Action.class.php'))
+	{
+		return 'actions';
+	}
+	elseif (false !== strpos($filename, 'components.class.php'))
+	{
+		return 'components';
+	}
+	elseif (false !== strpos($filename, 'Component.class.php'))
+	{
+		return 'components';
+	}
+	elseif (false !== strpos($filename, 'Form.class.php'))
+	{
+		return 'forms';
+	}
+	elseif (false !== strpos($filename, 'FormFilter.class.php'))
+	{
+		return 'forms';
+	}
+	elseif (false !== strpos($filename, 'Filter.class.php'))
+	{
+		return 'filters';
+	}
+	elseif (false !== strpos($filename, 'Configuration.class.php'))
+	{
+		return 'configurations';
+	}
+	elseif (false !== strpos($filename, 'sfWidgetForm'))
+	{
+		return 'widgets';
+	}
+}
+
+function getParentClass($filename)
+{
+	if (false !== strpos($filename, 'actions.class.php'))
+	{
+		return 'sfActions';
+	}
+	elseif (false !== strpos($filename, 'Action.class.php'))
+	{
+		return 'sfAction';
+	}
+	elseif (false !== strpos($filename, 'components.class.php'))
+	{
+		return 'sfComponents';
+	}
+	elseif (false !== strpos($filename, 'Component.class.php'))
+	{
+		return 'sfComponent';
+	}
+	elseif (false !== strpos($filename, 'Form.class.php'))
+	{
+		return 'sfForm';
+	}
+	elseif (false !== strpos($filename, 'FormFilter.class.php'))
+	{
+		return 'sfFormFilter';
+	}
+	elseif (false !== strpos($filename, 'Filter.class.php'))
+	{
+		return 'sfFilter';
+	}
+	elseif (false !== strpos($filename, 'ProjectConfiguration.class.php'))
+	{
+		return 'sfProjectConfiguration';
+	}
+	elseif (false !== strpos($filename, 'PluginConfiguration.class.php'))
+	{
+		return 'sfPluginConfiguration';
+	}
+	elseif (false !== strpos($filename, 'Configuration.class.php'))
+	{
+		return 'sfProjectConfiguration';
+	}
+	elseif (false !== strpos($filename, 'sfWidgetForm'))
+	{
+		return 'sfWidgetForm';
+	}
+}</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Create Class</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>cla</string>
+	<key>uuid</key>
+	<string>E68E7B35-7014-4A56-8F62-FCF4B885ADC0</string>
+</dict>
+</plist>

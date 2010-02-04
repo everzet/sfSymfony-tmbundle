@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;isFirstCall()$0</string>
+	<key>name</key>
+	<string>$this-&gt;isFirstCall()</string>
+	<key>scope</key>
+	<string>meta.symfony.filter</string>
+	<key>tabTrigger</key>
+	<string>ifc</string>
+	<key>uuid</key>
+	<string>0C54FF23-8276-4E76-9833-3E88D0B41C06</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+body {
+  background:#e8e8e8;
+}
+#command {
+  background:#fff url(../symfony.png) 2px 2px no-repeat;
+  -webkit-border-radius:5px;
+  height:26px;
+  width:93%;
+  font-size:22px;
+  padding-left:30px;
+  margin-bottom:10px;
+}
+.ac_results li {
+  font-size:14px !important;
+  font-weight:bold !important;
+}
+.description {
+  font-size:10px;
+  font-weight:normal !important;
+}
+.ac_over {
+  background:#2c2117;
+}
+#help, #output {
+  padding:15px;
+  font-size:10px;
+  color:#333;
+  border:1px solid #ccc;
+  -webkit-border-radius:5px;
+  margin:5px;
+  display:none;
+}
+#output {
+  font: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+  overflow:auto;
+}
+.error {
+  background:#ff6666;
+}

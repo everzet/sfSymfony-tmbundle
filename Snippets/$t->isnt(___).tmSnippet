@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${5:t}-&gt;isnt(${1:\$value1}, ${2:\$value2}${3:, ${4:'message'}});</string>
+	<key>name</key>
+	<string>$t-&gt;isnt(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>isnt</string>
+	<key>uuid</key>
+	<string>BC0EAEEF-D7E6-4F39-9D85-541443D4C064</string>
+</dict>
+</plist>

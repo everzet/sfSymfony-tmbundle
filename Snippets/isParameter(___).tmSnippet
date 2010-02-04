@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>isParameter(${1:'key'}, ${2:'value'})</string>
+	<key>name</key>
+	<string>isParameter(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.functional</string>
+	<key>tabTrigger</key>
+	<string>ipa</string>
+	<key>uuid</key>
+	<string>509C4C2D-1321-4D22-BE17-AF6DF51D7444</string>
+</dict>
+</plist>

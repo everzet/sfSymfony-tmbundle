@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;getLogger()$0</string>
+	<key>name</key>
+	<string>$this-&gt;getLogger()</string>
+	<key>scope</key>
+	<string>meta.symfony.component, meta.symfony.components, meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>lgr</string>
+	<key>uuid</key>
+	<string>0AFBD8F4-EDED-4D7C-939A-89434A5A1086</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${2:t}-&gt;diag(${1:'message'});</string>
+	<key>name</key>
+	<string>$t-&gt;diag(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.test.unit</string>
+	<key>tabTrigger</key>
+	<string>diag</string>
+	<key>uuid</key>
+	<string>A76F3F01-3F97-4A71-B7A7-1BCDB615357B</string>
+</dict>
+</plist>

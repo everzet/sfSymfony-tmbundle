@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;redirect(${0:\$url});</string>
+	<key>name</key>
+	<string>$this-&gt;redirect(...)</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>rd</string>
+	<key>uuid</key>
+	<string>4815E410-2FDC-4A1B-981E-9AEB8928E1EC</string>
+</dict>
+</plist>

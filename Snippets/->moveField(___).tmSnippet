@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;moveField(${1:'file'}, sfWidgetFormSchema::${2:BEFORE|AFTER|LAST|FIRST}${3:, ${4:'pivot'}})$0</string>
+	<key>name</key>
+	<string>-&gt;moveField(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;mfi</string>
+	<key>uuid</key>
+	<string>09A4A871-49FD-44B8-BA0E-C9EE6FF1E509</string>
+</dict>
+</plist>

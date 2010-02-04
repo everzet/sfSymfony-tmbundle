@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>format_number_choice(${1:'text'}, ${2:array()}, ${3:\$number})$0</string>
+	<key>name</key>
+	<string>format_number_choice(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>_fnc</string>
+	<key>uuid</key>
+	<string>4F067087-878B-4AFE-8DC7-DA851E75C4D6</string>
+</dict>
+</plist>

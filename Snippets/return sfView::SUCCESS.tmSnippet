@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>return sfView::SUCCESS;$0</string>
+	<key>name</key>
+	<string>return sfView::SUCCESS</string>
+	<key>scope</key>
+	<string>meta.symfony.action, meta.symfony.actions</string>
+	<key>tabTrigger</key>
+	<string>retv</string>
+	<key>uuid</key>
+	<string>D629AF6C-2D1E-4814-87BA-7708D53BCABF</string>
+</dict>
+</plist>

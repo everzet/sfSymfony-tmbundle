@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Executes component
+ *
+ * @param sfRequest \$request A request object
+ */
+public function execute(\$request)
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>Create execute for component</string>
+	<key>scope</key>
+	<string>meta.symfony.component</string>
+	<key>tabTrigger</key>
+	<string>exe</string>
+	<key>uuid</key>
+	<string>38BA7764-9881-4012-889D-E3F0C75F596B</string>
+</dict>
+</plist>
