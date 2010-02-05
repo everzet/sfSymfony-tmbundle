@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new sf${1:Doctrine}Pager(${2:'class'}, ${3:\$count = 10})</string>
+	<key>name</key>
+	<string>new sf...Pager(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>np</string>
+	<key>uuid</key>
+	<string>188BAE90-5E45-473B-8A59-A395F23AC8ED</string>
+</dict>
+</plist>

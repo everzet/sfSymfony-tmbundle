@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new ${1:sf}Form(${2:\$defaults}${3:, ${4:\$options}})</string>
+	<key>name</key>
+	<string>new ...Form(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>nf</string>
+	<key>uuid</key>
+	<string>B06B3E29-5D87-4CA8-B592-228EE4488814</string>
+</dict>
+</plist>
