@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;setPeerMethod(${1:'peerMethodName'})$0</string>
+	<key>name</key>
+	<string>-&gt;setPeerMethod(...)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;spm</string>
+	<key>uuid</key>
+	<string>32391684-B7A7-4A68-AAFB-AE1E1C002F3B</string>
+</dict>
+</plist>
