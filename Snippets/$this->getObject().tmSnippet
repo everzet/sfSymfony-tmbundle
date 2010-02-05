@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>$this-&gt;getObject()</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>meta.symfony.form</string>
 	<key>tabTrigger</key>
 	<string>go</string>
 	<key>uuid</key>

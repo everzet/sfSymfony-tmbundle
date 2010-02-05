@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>$this-&gt;isNew()</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>meta.symfony.form</string>
 	<key>tabTrigger</key>
 	<string>in</string>
 	<key>uuid</key>

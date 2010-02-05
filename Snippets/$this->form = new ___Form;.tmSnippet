@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;${2:${1/(.)(.*)/\L$1\E$2/}Form} = new ${1:sf}Form;$0</string>
+	<string>\$this-&gt;${5:${1/(.)(.*)/\L$1\E$2/}Form} = new ${1:sf}Form(${2:\$defaults}${3:, ${4:\$options}});$0</string>
 	<key>name</key>
-	<string>$this-&gt;form = new ...Form;</string>
+	<string>$this-&gt;form = new ...Form(...);</string>
 	<key>scope</key>
 	<string>meta.symfony.action, meta.symfony.actions, meta.symfony.component, meta.symfony.components</string>
 	<key>tabTrigger</key>
