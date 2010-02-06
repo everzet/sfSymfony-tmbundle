@@ -1,18 +1,29 @@
 <?php
 
-$projectPath = $_ENV['TM_PROJECT_DIRECTORY'];
 $args = $_SERVER['argv'];
+
+function getSymfonyRunner()
+{
+  $projectPath = getenv('TM_PROJECT_DIRECTORY');
+
+  if ($projectPath && is_file($projectPath . '/symfony'))
+  {
+    return $projectPath . '/symfony ';
+  }
+
+  return 'symfony ';
+}
 
 if (isset($args[1]))
 {
   switch ($args[1])
   {
     case 'cmd':
-      system($projectPath . '/symfony ' . $args[2]);
+      system(getSymfonyRunner() . $args[2]);
       break;
   }
 }
 else
 {
-  system($projectPath . '/symfony list --xml');
+  system(getSymfonyRunner() . 'list --xml');
 }
