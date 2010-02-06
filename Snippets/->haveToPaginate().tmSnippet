@@ -3,10 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Version snippet. Used for version information show.</string>
+	<string>-&gt;haveToPaginate()$0</string>
 	<key>name</key>
-	<string>v1.0.2 (03 Feb 2010)</string>
+	<string>-&gt;haveToPaginate()</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>-&gt;htp</string>
 	<key>uuid</key>
-	<string>03705FF6-8F34-4845-A063-171AF468CDCA</string>
+	<string>D83FE622-B906-4D1D-AFC3-122DC3C20FFC</string>
 </dict>
 </plist>
