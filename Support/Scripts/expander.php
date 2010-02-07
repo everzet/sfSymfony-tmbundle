@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Returns snippet for Class of the current file
+ *
+ * @param string $filename returns file name
+ * @param string $filepath returns file path
+ * @return string snippet
+ * @author Konstantin Kudryashov <ever.zet@gmail.com>
+ */
 function getSnippet($filename, $filepath)
 {  
   $baseClass = getParentClass($filename);
