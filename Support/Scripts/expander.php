@@ -10,7 +10,7 @@
  */
 function getSnippet($filename, $filepath)
 {  
-  $baseClass = getParentClass($filename);
+  $baseClass = getBaseClass($filename);
   $packageName = getPackageName($baseClass);
 
   $snippet = sprintf(<<<SNIPPET
@@ -44,6 +44,14 @@ SNIPPET
   return $snippet;
 }
 
+/**
+ * Returns class name by filename & filepath
+ *
+ * @param string $filename file name
+ * @param string $filepath file path
+ * @return string class name
+ * @author Konstantin Kudryashov <ever.zet@gmail.com>
+ */
 function getClassName($filename, $filepath)
 {
   switch ($filename)
@@ -59,6 +67,13 @@ function getClassName($filename, $filepath)
   }
 }
 
+/**
+ * Returns package name by base class
+ *
+ * @param string $baseClass base class
+ * @return string package name
+ * @author Konstantin Kudryashov <ever.zet@gmail.com>
+ */
 function getPackageName($baseClass)
 {
   switch ($baseClass)
@@ -86,10 +101,20 @@ function getPackageName($baseClass)
     case 'sfWidgetForm':
       return 'widgets';
       break;
+    default:
+      return '';
+      break;
   }
 }
 
-function getParentClass($filename)
+/**
+ * Returns base class for filename
+ *
+ * @param string $filename file name
+ * @return string base class
+ * @author Konstantin Kudryashov <ever.zet@gmail.com>
+ */
+function getBaseClass($filename)
 {
   if (false !== strpos($filename, 'actions.class.php'))
   {

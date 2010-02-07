@@ -3,7 +3,7 @@
 /**
  * Returns the content of page
  *
- * @return string
+ * @return string html for page render
  * @author Konstantin Kudryashov <ever.zet@gmail.com>
  **/
 function makePage($uri)
