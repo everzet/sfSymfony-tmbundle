@@ -1,6 +1,6 @@
 var commands = [];
 var current = null;
-var list = getCmdOut('php "$TM_BUNDLE_SUPPORT/Navigator/navigator.php"');
+var list = getCmdOut('php "$TM_BUNDLE_SUPPORT/GUI\ Scripts/cli.php"');
 
 $(document).ready(function() {
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
 
   $('form').submit(function() {
     var ret = getCmdRet(
-      'php "$TM_BUNDLE_SUPPORT/Navigator/navigator.php" cmd "' + $('#command').val() + '" && rescan_project'
+      'php "$TM_BUNDLE_SUPPORT/GUI\ Scripts/cli.php" cmd "' + $('#command').val() + '" && rescan_project'
     );
     $('#output').removeClass('error').hide()
 
