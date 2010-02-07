@@ -70,7 +70,7 @@ class sfBundle
    * @return string base class
    * @author Konstantin Kudryashov <ever.zet@gmail.com>
    */
-  public static function getCurrentFileType()
+  public static function getBaseClassForCurrentFile()
   {
     $filename = TextMate::getEnv('filename');
 

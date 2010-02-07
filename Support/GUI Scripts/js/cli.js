@@ -1,6 +1,8 @@
 var commands = [];
 var current = null;
-var list = getSfCmdOut('');
+var list = null;
+
+reloadList();
 
 $(document).ready(function() {
 
@@ -38,7 +40,8 @@ $(document).ready(function() {
     .focus();
 
   $('form').submit(function() {
-    var ret = getSfCmdRet('cmd "' + $('#command').val() + '"');
+    var cmd = $('#command').val();
+    var ret = getSfCmdRet('cmd "' + cmd + '"');
     $('#output').removeClass('error').hide()
 
     if (ret.outputString) {
@@ -53,6 +56,10 @@ $(document).ready(function() {
     return false;
   });
 });
+
+function reloadList() {
+  list = getSfCmdOut('');
+}
 
 function findValueCallback(event, data, formatted) {
   $('#help').hide();

@@ -12,7 +12,7 @@ require_once dirname(__FILE__) . '/../Lib/sfBundle.class.php';
  */
 function getSnippet()
 {  
-  $baseClass = sfBundle::getCurrentFileType();
+  $baseClass = sfBundle::getBaseClassForCurrentFile();
   $packageName = getPackageName($baseClass);
 
   $snippet = sprintf(<<<SNIPPET
