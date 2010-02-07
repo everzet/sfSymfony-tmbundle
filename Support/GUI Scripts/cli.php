@@ -9,7 +9,7 @@ if (isset($args[1]))
   switch ($args[1])
   {
     case 'cmd':
-      sfBundle::runSymfonyCLICommand($args[2]);
+      sfBundle::runCLICommand($args[2]);
       if (false !== strpos($args[2], 'generate') || false !== strpos($args[2], 'build'))
       {
         TextMate::rescanProject();
@@ -19,5 +19,5 @@ if (isset($args[1]))
 }
 else
 {
-  sfBundle::runSymfonyCLICommand('list --xml');
+  sfBundle::runCLICommand('list --xml');
 }

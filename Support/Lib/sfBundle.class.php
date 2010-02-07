@@ -40,7 +40,7 @@ class sfBundle
     return preg_replace(sprintf("/(^|\n)%s/", str_repeat(' ', $count)), "$1", $text);
   }
 
-  public static function getSymfonyCLI()
+  public static function getCLI()
   {
     $projectPath = getenv('TM_PROJECT_DIRECTORY');
     $symfonyPath = getenv('SF_SCRIPT_PATH');
@@ -58,9 +58,9 @@ class sfBundle
     return 'symfony ';
   }
 
-  public static function runSymfonyCLICommand($cmd)
+  public static function runCLICommand($cmd)
   {
-    system(self::getSymfonyCLI() . $cmd);
+    system(self::getCLI() . $cmd);
   }
 
   /**
