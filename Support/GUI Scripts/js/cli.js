@@ -1,6 +1,6 @@
 var commands = [];
 var current = null;
-var list = getCmdOut('php "$TM_BUNDLE_SUPPORT/GUI\ Scripts/cli.php"');
+var list = getSfCmdOut('');
 
 $(document).ready(function() {
 
@@ -21,25 +21,24 @@ $(document).ready(function() {
     }
   });
 
-  $("#command").autocomplete(commands, {
-    scroll: true,
-    formatItem: function(row, i, max) {
-      return row.cmd + '<div class="description">' + row.description + "</div>";
-    },
-    formatMatch: function(row, i, max) {
-      return row.cmd;
-    },
-    formatResult: function(row) {
-      return row.cmd;
-    }
-  })
-  .focus()
-  .result(findValueCallback);
+  $("#command")
+    .autocomplete(commands, {
+      scroll: true,
+      formatItem: function(row, i, max) {
+        return row.cmd + '<div class="description">' + row.description + "</div>";
+      },
+      formatMatch: function(row, i, max) {
+        return row.cmd;
+      },
+      formatResult: function(row) {
+        return row.cmd;
+      }
+    })
+    .result(findValueCallback)
+    .focus();
 
   $('form').submit(function() {
-    var ret = getCmdRet(
-      'php "$TM_BUNDLE_SUPPORT/GUI\ Scripts/cli.php" cmd "' + $('#command').val() + '" && rescan_project'
-    );
+    var ret = getSfCmdRet('cmd "' + $('#command').val() + '" && rescan_project');
     $('#output').removeClass('error').hide()
 
     if (ret.outputString) {
@@ -74,6 +73,12 @@ function getCmdRet(cmd) {
   return out;
 }
 
-function getCmdOut(cmd) {
-  return getCmdRet(cmd).outputString;
+function getSfCmdRet(cmd) {
+  return getCmdRet(
+    'php "$TM_BUNDLE_SUPPORT/GUI Scripts/cli.php" ' + cmd
+  );
+}
+
+function getSfCmdOut(cmd) {
+  return getSfCmdRet(cmd).outputString;
 }
