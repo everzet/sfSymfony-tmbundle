@@ -5,25 +5,15 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cd $TM_DIRECTORY
+	<string>#!/usr/bin/env php
+&lt;?php
 
-name=$(CocoaDialog inputbox --title "Move HTML into partial" \
-    --informative-text "Enter partial name:" \
-    --button1 "Ok" --button2 "Cancel")
-if [[ $(head -n1 &lt;&lt;&lt;"$name") == "2" ]]; then
-	echo "$TM_SELECTED_TEXT"
-	exit
-fi
-name=$(tail -n1 &lt;&lt;&lt;"$name")
-
-echo "$TM_SELECTED_TEXT" &gt; _$name.php
-rescan_project
-
-echo "&lt;?php include_partial('$name'\${1:, \${2:array()}}) ?&gt;"</string>
+require_once(getenv('TM_BUNDLE_SUPPORT') . '/Scripts/partialmove.php');
+</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>^~P</string>
 	<key>name</key>

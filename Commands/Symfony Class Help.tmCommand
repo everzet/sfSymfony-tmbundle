@@ -17,7 +17,7 @@ if isset($config[1])
 }
 else
 {
-	echo "&lt;h3&gt;Couldn't find help page for this class&lt;/h3&gt;";
+	echo "&lt;h3&gt;Couldn't find base class&lt;/h3&gt;";
 }</string>
 	<key>input</key>
 	<string>document</string>
