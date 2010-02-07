@@ -24,7 +24,7 @@ else
 	<key>keyEquivalent</key>
 	<string>^~h</string>
 	<key>name</key>
-	<string>Symfony Class Help</string>
+	<string>Base Class Help</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>

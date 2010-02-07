@@ -67,7 +67,7 @@ else
 	<key>keyEquivalent</key>
 	<string>^~h</string>
 	<key>name</key>
-	<string>Configuration File Help</string>
+	<string>YAML Configuration File Help</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
