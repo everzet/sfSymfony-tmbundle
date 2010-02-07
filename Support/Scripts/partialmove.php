@@ -54,14 +54,14 @@ if ($splittableSpacesCount = sfBundle::getSplittableSpacesCount($content))
   $content = sfBundle::splitSpacesAtStart($content, $splittableSpacesCount);
 }
 
-// Writing partial
-file_put_contents($partialPath, $content);
-
 // Echoing snippet
 echo sprintf("%s<?php include_partial('%s'\${1:, array(\$0)}) ?>"
   ,str_repeat(' ', $splittableSpacesCount)
   ,$partialName
 );
+
+// Writing partial
+file_put_contents($partialPath, $content);
 
 // Rescaning project folder & opening partial in TM
 TextMate::rescanProject();
