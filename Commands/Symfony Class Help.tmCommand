@@ -8,17 +8,7 @@
 	<string>#!/usr/bin/env php
 &lt;?php
 
-preg_match('/class.*extends *(.*)[ \n]/', file_get_contents('php://stdin'), $config);
-
-if isset($config[1])
-{
-	require_once(getenv('TM_BUNDLE_SUPPORT') . '/Scripts/browser.php');
-	echo makePage('http://www.symfony-project.org/api/search/1_4?search=' . $config[1]);
-}
-else
-{
-	echo "&lt;h3&gt;Couldn't find base class&lt;/h3&gt;";
-}</string>
+require_once(getenv('TM_BUNDLE_SUPPORT') . '/Scripts/classhelp.php');</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>

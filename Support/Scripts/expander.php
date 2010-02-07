@@ -2,6 +2,8 @@
 
 require_once dirname(__FILE__) . '/../Lib/sfBundle.class.php';
 
+echo getSnippet();
+
 /**
  * Returns snippet for Class of the current file
  *
