@@ -1,5 +1,7 @@
 <?php
 
+require_once dirname(__FILE__) . '/../Lib/sfBundle.class.php';
+
 /**
  * Returns snippet for Class of the current file
  *
@@ -8,9 +10,9 @@
  * @return string snippet
  * @author Konstantin Kudryashov <ever.zet@gmail.com>
  */
-function getSnippet($filename, $filepath)
+function getSnippet()
 {  
-  $baseClass = getBaseClass($filename);
+  $baseClass = sfBundle::getCurrentFileType();
   $packageName = getPackageName($baseClass);
 
   $snippet = sprintf(<<<SNIPPET
@@ -36,8 +38,8 @@ class \$4%s
 }
 SNIPPET
     ,date('Y', time())
-    ,getClassName($filename, $filepath)
-    ,$packageName ? $packageName : 'customs'
+    ,getClassName(TextMate::getEnv('filename'), TextMate::getEnv('filepath'))
+    ,$packageName ? $packageName : 'custom'
     ,$baseClass ? sprintf(" extends \${9:%s}", $baseClass) : ''
   );
 
@@ -88,6 +90,8 @@ function getPackageName($baseClass)
       break;
     case 'sfForm':
     case 'sfFormFilter':
+    case 'sfFormDoctrine':
+    case 'sfFormPropel':
       return 'forms';
       break;
     case 'sfFilter':
@@ -104,60 +108,5 @@ function getPackageName($baseClass)
     default:
       return '';
       break;
-  }
-}
-
-/**
- * Returns base class for filename
- *
- * @param string $filename file name
- * @return string base class
- * @author Konstantin Kudryashov <ever.zet@gmail.com>
- */
-function getBaseClass($filename)
-{
-  if (false !== strpos($filename, 'actions.class.php'))
-  {
-    return 'sfActions';
-  }
-  elseif (false !== strpos($filename, 'Action.class.php'))
-  {
-    return 'sfAction';
-  }
-  elseif (false !== strpos($filename, 'components.class.php'))
-  {
-    return 'sfComponents';
-  }
-  elseif (false !== strpos($filename, 'Component.class.php'))
-  {
-    return 'sfComponent';
-  }
-  elseif (false !== strpos($filename, 'Form.class.php'))
-  {
-    return 'sfForm';
-  }
-  elseif (false !== strpos($filename, 'FormFilter.class.php'))
-  {
-    return 'sfFormFilter';
-  }
-  elseif (false !== strpos($filename, 'Filter.class.php'))
-  {
-    return 'sfFilter';
-  }
-  elseif (false !== strpos($filename, 'ProjectConfiguration.class.php'))
-  {
-    return 'sfProjectConfiguration';
-  }
-  elseif (false !== strpos($filename, 'PluginConfiguration.class.php'))
-  {
-    return 'sfPluginConfiguration';
-  }
-  elseif (false !== strpos($filename, 'Configuration.class.php'))
-  {
-    return 'sfApplicationConfiguration';
-  }
-  elseif (false !== strpos($filename, 'sfWidgetForm'))
-  {
-    return 'sfWidgetForm';
   }
 }

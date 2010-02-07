@@ -38,7 +38,7 @@ $(document).ready(function() {
     .focus();
 
   $('form').submit(function() {
-    var ret = getSfCmdRet('cmd "' + $('#command').val() + '" && rescan_project');
+    var ret = getSfCmdRet('cmd "' + $('#command').val() + '"');
     $('#output').removeClass('error').hide()
 
     if (ret.outputString) {
