@@ -24,7 +24,7 @@ function getSnippet($filename, $filepath)
  */
 class \$4%s
 {
-	\$0
+  \$0
 }
 SNIPPET
     ,date('Y', time())
@@ -38,17 +38,17 @@ SNIPPET
 
 function getClassName($filename, $filepath)
 {
-	switch ($filename)
-	{
-		case 'components.class.php';
-			return basename(dirname(dirname($filepath))) . 'Components';
-			break;
-		case 'actions.class.php':
-			return basename(dirname(dirname($filepath))) . 'Actions';
-			break;
-		default:
-			return str_replace('.class.php', '', $filename);
-	}
+  switch ($filename)
+  {
+    case 'components.class.php';
+      return basename(dirname(dirname($filepath))) . 'Components';
+      break;
+    case 'actions.class.php':
+      return basename(dirname(dirname($filepath))) . 'Actions';
+      break;
+    default:
+      return str_replace('.class.php', '', $filename);
+  }
 }
 
 function getPackageName($baseClass)
@@ -83,48 +83,48 @@ function getPackageName($baseClass)
 
 function getParentClass($filename)
 {
-	if (false !== strpos($filename, 'actions.class.php'))
-	{
-		return 'sfActions';
-	}
-	elseif (false !== strpos($filename, 'Action.class.php'))
-	{
-		return 'sfAction';
-	}
-	elseif (false !== strpos($filename, 'components.class.php'))
-	{
-		return 'sfComponents';
-	}
-	elseif (false !== strpos($filename, 'Component.class.php'))
-	{
-		return 'sfComponent';
-	}
-	elseif (false !== strpos($filename, 'Form.class.php'))
-	{
-		return 'sfForm';
-	}
-	elseif (false !== strpos($filename, 'FormFilter.class.php'))
-	{
-		return 'sfFormFilter';
-	}
-	elseif (false !== strpos($filename, 'Filter.class.php'))
-	{
-		return 'sfFilter';
-	}
-	elseif (false !== strpos($filename, 'ProjectConfiguration.class.php'))
-	{
-		return 'sfProjectConfiguration';
-	}
-	elseif (false !== strpos($filename, 'PluginConfiguration.class.php'))
-	{
-		return 'sfPluginConfiguration';
-	}
-	elseif (false !== strpos($filename, 'Configuration.class.php'))
-	{
-		return 'sfApplicationConfiguration';
-	}
-	elseif (false !== strpos($filename, 'sfWidgetForm'))
-	{
-		return 'sfWidgetForm';
-	}
+  if (false !== strpos($filename, 'actions.class.php'))
+  {
+    return 'sfActions';
+  }
+  elseif (false !== strpos($filename, 'Action.class.php'))
+  {
+    return 'sfAction';
+  }
+  elseif (false !== strpos($filename, 'components.class.php'))
+  {
+    return 'sfComponents';
+  }
+  elseif (false !== strpos($filename, 'Component.class.php'))
+  {
+    return 'sfComponent';
+  }
+  elseif (false !== strpos($filename, 'Form.class.php'))
+  {
+    return 'sfForm';
+  }
+  elseif (false !== strpos($filename, 'FormFilter.class.php'))
+  {
+    return 'sfFormFilter';
+  }
+  elseif (false !== strpos($filename, 'Filter.class.php'))
+  {
+    return 'sfFilter';
+  }
+  elseif (false !== strpos($filename, 'ProjectConfiguration.class.php'))
+  {
+    return 'sfProjectConfiguration';
+  }
+  elseif (false !== strpos($filename, 'PluginConfiguration.class.php'))
+  {
+    return 'sfPluginConfiguration';
+  }
+  elseif (false !== strpos($filename, 'Configuration.class.php'))
+  {
+    return 'sfApplicationConfiguration';
+  }
+  elseif (false !== strpos($filename, 'sfWidgetForm'))
+  {
+    return 'sfWidgetForm';
+  }
 }
