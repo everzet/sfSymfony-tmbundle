@@ -110,7 +110,14 @@ class TextMate
     $optionsList = array();
     foreach ($options as $key => $value)
     {
-      $optionsList[] = sprintf('--%s "%s"', $key, $value);
+      if ($value)
+      {
+        $optionsList[] = sprintf('--%s "%s"', $key, $value);
+      }
+      else
+      {
+        $optionsList[] = sprintf('--%s', $key);
+      }
     }
 
     $dialogCommand = sprintf('%s %s %s'
