@@ -42,7 +42,7 @@ class sfBundle
 
   public static function getCLI()
   {
-    $projectPath = getenv('TM_PROJECT_DIRECTORY');
+    $projectPath = TextMate::getEnv('project_directory');
     $symfonyPath = getenv('SF_SCRIPT_PATH');
 
     if ($projectPath && is_file($projectPath . '/symfony'))
