@@ -4,21 +4,21 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * Executes this action
+ * Executes this filter
  *
- * @param sfWebRequest \$request A request object
+ * @param sfFilterChain $filterChain A sfFilterChain instance
  */
-public function execute(sfWebRequest \$request)
+public function execute(\$filterChain)
 {
 	$0
 }</string>
 	<key>name</key>
-	<string>Create execute for action</string>
+	<string>Create execute for filter</string>
 	<key>scope</key>
-	<string>meta.symfony.action</string>
+	<string>meta.symfony.filter</string>
 	<key>tabTrigger</key>
 	<string>exe</string>
 	<key>uuid</key>
-	<string>0EE1B528-4B1B-46C5-A4DA-630AD587E378</string>
+	<string>1198C903-85C8-4B9B-9C9F-553402042A3B</string>
 </dict>
 </plist>

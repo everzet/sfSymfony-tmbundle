@@ -603,7 +603,11 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>1198C903-85C8-4B9B-9C9F-553402042A3B</string>
+					<string>------------------------------------</string>
 					<string>0C54FF23-8276-4E76-9833-3E88D0B41C06</string>
+					<string>------------------------------------</string>
+					<string>8523C3C0-F5DA-40B6-ABA5-1C93FBB92DD5</string>
 				</array>
 				<key>name</key>
 				<string>Filters</string>
@@ -653,6 +657,18 @@
 				</array>
 				<key>name</key>
 				<string>ValidatorSchema</string>
+			</dict>
+			<key>A2A04D3B-0A6D-414D-94C2-A237D7A34D69</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>46658542-E6F1-40F1-9EB0-843C4942F9B5</string>
+					<string>26E0BA84-25C6-42EC-8FFC-02D5A7F00E9C</string>
+					<string>------------------------------------</string>
+					<string>BA60E543-1FB6-4567-9FDE-F5D4F68C9149</string>
+				</array>
+				<key>name</key>
+				<string>Controller</string>
 			</dict>
 			<key>A4694B8E-D725-42A4-9706-27257D1A1E70</key>
 			<dict>
@@ -965,6 +981,7 @@
 					<string>DBC75CB2-1AEE-48BB-82F0-B0745E546CEE</string>
 					<string>A9639832-9DB4-40C3-9645-6382AECADCB7</string>
 					<string>ADDD57B8-E4C0-42DE-93D0-6B0BBA578E5A</string>
+					<string>A2A04D3B-0A6D-414D-94C2-A237D7A34D69</string>
 					<string>F9170B5A-A463-4F4D-A7B0-16D9B03683CE</string>
 					<string>63922302-83AE-4142-967D-5F3117BECEB3</string>
 					<string>FBC54107-A8D7-4ACC-9196-065B07803932</string>
@@ -1117,6 +1134,9 @@
 		<string>2FA581C4-20C4-4BBA-9A07-8ECC5323AEF6</string>
 		<string>423014BE-CC84-4AD0-81A0-30DA708728EA</string>
 		<string>7FC1809D-0248-40EB-8808-8889EDEB4A68</string>
+		<string>46658542-E6F1-40F1-9EB0-843C4942F9B5</string>
+		<string>26E0BA84-25C6-42EC-8FFC-02D5A7F00E9C</string>
+		<string>BA60E543-1FB6-4567-9FDE-F5D4F68C9149</string>
 		<string>F2A8560A-4679-4F2F-9119-1C66F6C3E7F3</string>
 		<string>9F000647-868C-4354-8EE7-21DCA362BABD</string>
 		<string>9667B51E-EE9B-4C61-8FA4-FC1A7EB65B75</string>
@@ -1159,7 +1179,9 @@
 		<string>3B3519A2-BFEC-4A82-9BF3-F05519F5F56E</string>
 		<string>1D207EDC-B8A4-4894-B783-D298648A56B8</string>
 		<string>7DD3E8FE-43AC-4F3F-B606-99694812174D</string>
+		<string>1198C903-85C8-4B9B-9C9F-553402042A3B</string>
 		<string>0C54FF23-8276-4E76-9833-3E88D0B41C06</string>
+		<string>8523C3C0-F5DA-40B6-ABA5-1C93FBB92DD5</string>
 		<string>88D5B66E-A275-44E0-8CFA-57AA4E24F9C5</string>
 		<string>E1C1B09A-5973-4BEC-8F07-CE5DB59A44FA</string>
 		<string>AA42956D-DF3F-4338-B097-D405FC0803FE</string>

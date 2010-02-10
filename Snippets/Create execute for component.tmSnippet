@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * Executes component
+ * Executes this component
  *
  * @param sfRequest \$request A request object
  */
