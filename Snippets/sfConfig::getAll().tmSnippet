@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>sfConfig::set(${1:'sf_app_${2:var}'}, ${3:'value'})</string>
+	<string>sfConfig::getAll()</string>
 	<key>name</key>
 	<string>sfConfig::getAll()</string>
 	<key>scope</key>
